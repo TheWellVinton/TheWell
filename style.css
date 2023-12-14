@@ -91,6 +91,14 @@ b {
     padding: 30px;
 }
 
+#supertitle {
+    font-size: 5dvw;
+}
+
+#staff {
+    display: flex;
+}
+
 p {
     font-size: 1.5dvw;
     text-align: center;
@@ -207,6 +215,22 @@ a:visited {
 .disclaimer {
     font-weight: bolder;
     font-style: italic;
+}
+
+.staff_img {
+    height: 20dvw;
+    border-radius: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.together_img{
+    border-radius: 2dvw;
+    width: 75dvw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* IMPORTED STYLES */
 .page {
