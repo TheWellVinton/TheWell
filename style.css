@@ -9,6 +9,7 @@
 /* BODY TAGS */
 html {
     scroll-behavior: smooth;
+    position: absolute;
 }
 
 body {
