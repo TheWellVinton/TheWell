@@ -22,6 +22,7 @@ body {
     background-size: cover;
     animation: infinite 200s linear infinite;
     color: black;
+    overflow-x: hidden;
 }
 
 b {
