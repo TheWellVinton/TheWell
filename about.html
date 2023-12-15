@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=0, maximum-scale=0, user-scalable=0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="images/logo.png">
     <script src="https://kit.fontawesome.com/c9a6611c97.js" crossorigin="anonymous"></script>
@@ -84,5 +84,13 @@
             <a href="https://blessedhope-vinton.org" target="_blank" rel="noopener noreferrer"><img src="images/bh_logo.png" alt="The Blessed Hope Community Church Logo" class="bottom_bh"></a>
         </div>
     </section>
+    <script>
+        document.addEventListener('touchmove', function(event) {
+            event = event.originalEvent || event;
+            if(event.scale > 1) {
+                event.preventDefault();
+            }
+        }, false);
+    </script>
 </body>
 </html>
