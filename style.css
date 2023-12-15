@@ -9,7 +9,7 @@
 /* BODY TAGS */
 html {
     scroll-behavior: smooth;
-    position: absolute;
+    position: relative;
 }
 
 body {
@@ -98,6 +98,7 @@ b {
 
 #staff {
     display: flex;
+    flex-direction: row;
 }
 
 p {
