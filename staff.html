@@ -90,12 +90,12 @@
         </div>
     </section>
     <script>
-        document.addEventListener('touchmove', function(event) {
-            event = event.originalEvent || event;
-            if(event.scale > 1) {
-                event.preventDefault();
+        disableScroll = false;
+        $(document).on('touchmove',function(e) {
+            if (disableScroll) {
+                e.preventDefault();
             }
-        }, false);
+        });
     </script>
 </body>
 </html>
