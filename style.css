@@ -147,7 +147,8 @@ a:visited {
 }
 
 .social_text:hover {
-    font-size: 1.75dvw;
+    transform: translateY(-3px);
+    text-decoration: underline;
     transition-duration: 0.4s;
 }
 
