@@ -111,10 +111,10 @@ b {
 }
 
 #featured-items {
-    padding-top: 5dvw;
-    padding-bottom: 5dvw;
-    margin-left: 7dvw;
-    margin-right: 7dvw;
+    padding-top: 3dvw;
+    padding-bottom: 3dvw;
+    margin-left: 4.5dvw;
+    margin-right: 4.5dvw;
 }
 
 p {
@@ -257,12 +257,12 @@ a:visited {
 }
 
 .item-desc-l {
-    font-size: 2dvw;
+    font-size: 1.75dvw;
     text-align: left;
 }
 
 .item-desc-r {
-    font-size: 2dvw;
+    font-size: 1.75dvw;
     text-align: right;
 }
 
