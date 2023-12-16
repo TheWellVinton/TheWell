@@ -110,6 +110,11 @@ b {
     display: inline-flex;
 }
 
+#featured-items {
+    padding-top: 5dvw;
+    padding-bottom: 5dvw;
+}
+
 p {
     font-size: 2dvw;
     text-align: center;
@@ -252,13 +257,11 @@ a:visited {
 .item-desc-l {
     font-size: 2.3dvw;
     text-align: left;
-    transform: translateY(-3dvw);
 }
 
 .item-desc-r {
     font-size: 2.3dvw;
     text-align: right;
-    transform: translateY(-3dvw);
 }
 
 .move-r {
