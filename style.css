@@ -104,8 +104,6 @@ b {
 
 #staff {
     display: flex;
-    margin-left: 7dvw;
-    margin-right: 7dvw;
 }
 
 #item-1, #item-2, #item-3 {
@@ -115,6 +113,8 @@ b {
 #featured-items {
     padding-top: 5dvw;
     padding-bottom: 5dvw;
+    margin-left: 7dvw;
+    margin-right: 7dvw;
 }
 
 p {
