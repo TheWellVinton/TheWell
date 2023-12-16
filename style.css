@@ -74,6 +74,12 @@ b {
     font-size: 3.55vw;
 }
 
+#bigtitle-u {
+    font-size: 3vw;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
 #menu {
     padding: 30px;
 }
@@ -88,7 +94,6 @@ b {
     align-items: center;
 }
 
-
 #under_socials  > * {
     padding: 30px;
 }
@@ -99,11 +104,14 @@ b {
 
 #staff {
     display: flex;
-    flex-direction: row;
+}
+
+#item-1, #item-2, #item-3 {
+    display: inline-flex;
 }
 
 p {
-    font-size: 1.5dvw;
+    font-size: 2dvw;
     text-align: center;
     margin-left: 7dvw;
     margin-right: 7dvw;
@@ -235,6 +243,32 @@ a:visited {
     margin-left: auto;
     margin-right: auto;
 }
+
+.feat-imgs {
+    height:35dvw;
+    border-radius: 5%;
+}
+
+.item-desc-l {
+    font-size: 2.3dvw;
+    text-align: left;
+    transform: translateY(-3dvw);
+}
+
+.item-desc-r {
+    font-size: 2.3dvw;
+    text-align: right;
+    transform: translateY(-3dvw);
+}
+
+.move-r {
+    float: right;
+}
+
+.move-l {
+    float: left;
+}
+
 /* IMPORTED STYLES */
 .page {
     overflow-y: scroll; /* Add the ability to scroll */
